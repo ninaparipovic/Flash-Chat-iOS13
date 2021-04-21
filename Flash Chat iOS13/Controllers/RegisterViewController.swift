@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 
 class RegisterViewController: UIViewController {
-
+    
     @IBOutlet weak var errorMessage: UILabel!
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
@@ -26,8 +26,8 @@ class RegisterViewController: UIViewController {
                     // navigate to chat view controller
                     self.performSegue(withIdentifier: K.registerSegue, sender: self)
                 }
-        }
-
+            }
+            
         }
     }
     
